@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    margin-right: 50px;
+    /* padding-top: 40px; */
+}
+.head{
+    background-color: #272c33;
+    color:white;
+    padding: 4px;
+    font-size: 13px;
+    font-family: 'SF Pro Display';
+    
+}
