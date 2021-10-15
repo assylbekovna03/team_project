@@ -1,16 +1,121 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    align-items: center;
-    margin-right: 50px;
-    /* padding-top: 40px; */
-}
 .head{
     background-color: #272c33;
     color:white;
-    padding: 4px;
-    font-size: 13px;
-    font-family: 'SF Pro Display';
+    /* padding: 6px; */
+    font-size: 5px;
+    letter-spacing: -1px;
+    font: inherit;
     
 }
+.with{
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+.input-group{
+    position: relative; left: 77%;
+    margin-top: -55px;
+    padding-bottom: 10px;
+}
+.ant{
+    font-family:'Monotype Corsiva';
+    position: relative; left: 9.5%; 
+    margin-top: -23px;
+    font-size: 18px;
+}
+h2{
+    font-family: 'Minion Variable Concept';
+    padding-left: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    text-transform: uppercase;
+    align-items: center;
+    margin-right: 90px;
+    padding-top: 20px;
+} 
+
+.icon{
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-top: 4px;
+}
+.search{
+    size: 50px;
+}
+.button{
+    size:50px;
+} 
+.btn1 a.btn{
+    background-image: url(photo1.jpg);
+    width: 200px;
+    height: 300px;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+}
+
+.btn1 a.btn:hover{
+    background-image: url(photo2.jpg);
+}
+.btn2 a.btn{
+    background-image: url(photo3.jpg);
+    width: 200px;
+    height: 300px;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+}
+
+.btn2 a.btn:hover{
+    background-image: url(photo4.jpg);
+}
+.btn3 a.btn{
+    background-image: url(photo5.jpg);
+    width: 200px;
+    height: 300px;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+}
+
+.btn3 a.btn:hover{
+    background-image: url(photo6.jpg);
+}
+.btn4 a.btn{
+    background-image: url(photo7.jpg);
+    width: 200px;
+    height: 300px;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+}
+
+.btn4 a.btn:hover{
+    background-image: url(photo8.jpg);
+}
+.btn5 a.btn{
+    background-image: url(photo9.jpg);
+    width: 200px;
+    height: 300px;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+}
+
+.btn5 a.btn:hover{
+    background-image: url(photo10.jpg);
+}
+.btn6 a.btn{
+    background-image: url(photo11.jpg);
+    width: 200px;
+    height: 300px;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+}
+
+.btn6 a.btn:hover{
+    background-image: url(photo12.jpg);
+}
+
+.images{
+    display: flex;
+    padding-left: 30px;
+}
+
