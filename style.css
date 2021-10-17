@@ -13,14 +13,13 @@
 }
 .input-group{
     position: relative; left: 77%;
-    margin-top: -55px;
-    padding-bottom: 10px;
+    margin-top: -61px;
+    padding-bottom: 6px;
 }
 .ant{
-    font-family:'Monotype Corsiva';
+    /* /* font-family:'Monotype Corsiva'; */
     position: relative; left: 9.5%; 
-    margin-top: -23px;
-    font-size: 18px;
+    margin-top: -37px; 
 }
 h2{
     font-family: 'Minion Variable Concept';
@@ -211,27 +210,66 @@ input[type="password"]{
 .insta{
     padding-right: 7px;
 }
+.fasebook{
+    padding-left: 5px;
+}
 .bottom{
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 15px;
+    color: rgba(255, 251, 251, 0.5);
     font-family:'Minion Variable Concept';
 }
 a{
-   color:white
+   color: rgba(255, 251, 251, 0.5);
 }
 a:hover{
-    color:#6c757d;
+    color:white;
 }
 .up{
     position: relative;
     left:50%;
-    font-size: 20px;
+    font-size: 15px;
 }
 .about{
-    position: relative;
+    position: absolute;
     left:20%; 
-    padding-top: 10px;
+    margin-top: -245px; 
+    color: rgba(255, 251, 251, 0.5)   
+}
+.history{
+    font-size: 15px;
+    position: absolute;
+    left:20%; 
+    margin-top: -207px; 
+    color: rgba(255, 251, 251, 0.5) 
 }
 .video{
     margin-top: 30px;
+}
+.header a{
+    color:black;
+}
+.header a:hover{
+    color:#6c757d;
+    text-decoration: none;
+}
+.work{
+    font-size: 15px;
+    position: absolute;
+    left:40%; 
+    margin-top: -207px; 
+    color: rgba(255, 251, 251, 0.5) 
+}
+.franch{
+    position: absolute;
+    left:40%; 
+    margin-top: -245px; 
+    color: rgba(255, 251, 251, 0.5) 
+}
+.logo1{
+    size: 15px;
+    position: relative;
+    left:95%;
+    position: absolute;
+    margin-top: -48px; 
 }
