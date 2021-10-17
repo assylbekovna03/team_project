@@ -11,6 +11,11 @@
     padding-top: 28px;
     padding-bottom: 10px;
 }
+/* input[type=search] {
+    width: 98%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ } */
 .input-group{
     position: relative; left: 77%;
     margin-top: -61px;
@@ -33,6 +38,12 @@ h2{
     align-items: center;
     margin-right: 90px;
     padding-top: 20px;
+    position: sticky;
+    top: -2em;
+    min-height: 2em;
+    background-color: white;
+    height: 100px;
+    z-index: 100;
 } 
 .search{
     size: 50px;
@@ -197,6 +208,22 @@ input[type="password"]{
     border-radius: 50%;
     border-spacing: 5px;
 }
+.clothes{
+    padding-left: 20px;
+}
+.access{
+    padding-left: 150px;
+    margin-top: -180px;
+    padding-bottom: 5px;
+}
+#discount{
+    /* margin-left:-20px; */
+    margin-left: -8px;
+}
+.links{
+    font-family: 'Graphik,sans-serif';
+    font-size: 20px;
+}
 .bottom{
     background:#272c33;
     color:white;
@@ -213,17 +240,31 @@ input[type="password"]{
 .fasebook{
     padding-left: 5px;
 }
+.twitter{
+    padding-left: 9px;
+}
+.qr-code{
+    padding-top: 7px;
+}
 .bottom{
     padding-top: 20px;
     padding-left: 15px;
     color: rgba(255, 251, 251, 0.5);
     font-family:'Minion Variable Concept';
+    font-style:oblique;
 }
 a{
    color: rgba(255, 251, 251, 0.5);
 }
 a:hover{
     color:white;
+}
+.links a{
+    color: black;
+}
+.links a:hover{
+    text-decoration: none;
+    color:#5f9ea0;
 }
 .up{
     position: relative;
@@ -273,3 +314,97 @@ a:hover{
     position: absolute;
     margin-top: -48px; 
 }
+/* .dis{
+    width: 900px;
+    height: 400px;
+    padding-left: 50px;
+} */
+.nav {
+    float: left;
+}
+label {
+    margin: 8px 0 0 20px;
+    font-size: 30px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+@media(max-width: 600px) {
+    .head{
+        display: none;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 30px;
+        position: relative;
+        background-color: transparent;
+
+    }
+    .header div {
+        border-bottom: 1px solid grey;
+        margin-top: 30px;
+    
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .container{
+        display: none;
+    }
+    .main img{
+        width: 600px;
+        height: 200px;
+        margin-top: 300px ;
+    }
+    h2{
+        padding-left: 170px;
+    }
+    .images{
+        display: block;
+        padding-left: 170px;
+    }
+    .video video{
+        /* padding-left: 80px; */
+        margin: 0 auto;
+        width: 600px;
+        height: 200px;
+    }
+    .about{
+        display: none;
+    }
+    .history{
+        display: none;
+    }
+    .work{
+        display: none;
+    }
+    .franch{
+        display: none;
+    }
+    .logo1{
+        position: relative;
+        left:90%;
+    }
+    .need{
+        position: relative;
+        left:25%;
+    }
+    #collection{
+        position: relative;
+        left:8%;
+    }
+    #discount{
+        position: relative;
+        left:12%;
+    }
+    #toggle:checked + .header {
+        display: none;
+    }
+    
+}
+ 
+
