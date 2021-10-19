@@ -11,7 +11,7 @@ body{
 }
 .input-group{
     position: relative;
-    right: -420%;
+    right: -480%;
     top:180%;
 
 }
@@ -50,7 +50,7 @@ h2{
 }
 .div h1 {
     font-size: 5rem;
-    margin-top: 20vh;
+    margin-top: 14vh;
     color: white;
     font-family: 'Trebuchet MS';
     font-weight: bold;
@@ -91,75 +91,75 @@ h2{
     size:50px;
 } 
 .btn1 a.btn{
-    background-image: url(photo1.jpg);
-    width: 200px;
-    height: 300px;
-    background-size: 200px 300px;
+    background-image: url(phot1.jpg);
+    width: 250px;
+    height: 350px;
+    background-size: 250px 350px;
     background-repeat: no-repeat;
 }
 
 .btn1 a.btn:hover{
-    background-image: url(photo2.jpg);
+    background-image: url(phot2.jpg);
 }
 .btn2 a.btn{
-    background-image: url(photo3.jpg);
-    width: 200px;
-    height: 300px;
-    background-size: 200px 300px;
+    background-image: url(phot3.jpg);
+    width: 250px;
+    height: 350px;
+    background-size: 250px 350px;
     background-repeat: no-repeat;
 }
 
 .btn2 a.btn:hover{
-    background-image: url(photo4.jpg);
+    background-image: url(phot4.jpg);
 }
 .btn3 a.btn{
-    background-image: url(photo5.jpg);
-    width: 200px;
-    height: 300px;
-    background-size: 200px 300px;
+    background-image: url(phot5.jpg);
+    width: 250px;
+    height: 350px;
+    background-size: 250px 350px;
     background-repeat: no-repeat;
 }
 
 .btn3 a.btn:hover{
-    background-image: url(photo6.jpg);
+    background-image: url(phot6.jpg);
 }
 .btn4 a.btn{
-    background-image: url(photo7.jpg);
-    width: 200px;
-    height: 300px;
-    background-size: 200px 300px;
+    background-image: url(phot7.jpg);
+    width: 250px;
+    height: 350px;
+    background-size: 250px 350px;
     background-repeat: no-repeat;
 }
 
 .btn4 a.btn:hover{
-    background-image: url(photo8.jpg);
+    background-image: url(phot8.jpg);
 }
 .btn5 a.btn{
     background-image: url(photo9.jpg);
-    width: 200px;
-    height: 300px;
-    background-size: 200px 300px;
+    width: 250px;
+    height: 350px;
+    background-size: 250px 350px;
     background-repeat: no-repeat;
 }
 
 .btn5 a.btn:hover{
     background-image: url(photo10.jpg);
 }
-.btn6 a.btn{
+/* .btn6 a.btn{
     background-image: url(photo11.jpg);
-    width: 200px;
-    height: 300px;
-    background-size: 200px 300px;
+    width: 250px;
+    height: 350px;
+    background-size: 250px 350px;
     background-repeat: no-repeat;
 }
 
 .btn6 a.btn:hover{
     background-image: url(photo12.jpg);
-}
+} */
 
 .images{
     display: flex;
-    padding-left: 30px;
+    padding-left: 60px;
     font-family: Trebuchet MS;
     font-size: 17px;
 }
@@ -177,8 +177,8 @@ h2{
     position: absolute;
     width: 3%;
     height: 6.5%;
-    left:94.6%;
-    top: 15.4%;
+    left:95.5%;
+    top: 14%;
 }
 .button{
     background: #fff;
@@ -250,100 +250,7 @@ input[type="password"]{
     border-radius: 50%;
     border-spacing: 5px;
 }
-* {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Make the images invisible by default */
-.Containers {
-  display: none;
-}
-
-/* forward & Back buttons */
-.Back, .forward {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: grey;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
-}
-
-/* Place the "forward button" to the right */
-.forward {
-  right: 0;
-  border-radius: 4px 0 0 4px;
-}
-
-/*when the user hovers,add a black background with some little opacity */
-.Back:hover, .forward:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption Info */
-.Info {
-  color: #e3e3e3;
-  font-size: 16px;
-  padding: 10px 14px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Worknumbering (1/3 etc) */
-.MessageInfo {
-  color: #f2f2f3;
-  font-size: 14px;
-  padding: 10px 14px;
-  position: absolute;
-  top: 0;
-}
-
-/* The circles or bullets and indicators */
-.dots {
-  cursor: pointer;
-  height: 16px;
-  width: 16px;
-  margin: 0 3px;
-  background-color: #acc;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s ease;
-}
-
-.enable, .dots:hover {
-  background-color: #717161;
-}
-
-/* Faint animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
-  animation-name: fade;
-  animation-duration: 1.4s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
-
-@keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
 .clothes{
     padding-left: 20px;
 }
@@ -363,12 +270,15 @@ input[type="password"]{
 .bottom{
     background:#272c33;
     color:white;
-    padding: 5px 5px;
+    /* padding: 75px 5px; */
     
+}
+p{
+    margin-top: -50px;
 }
 .icon{
     display: flex;
-    padding: 3px 5px;
+    padding: -5px 5px;
     font-size: 20px;
 }
 .insta{
@@ -382,12 +292,13 @@ input[type="password"]{
 }
 .qr-code{
     padding-top: 7px;
+    padding-bottom: 9px;
 }
 .bottom{
     padding-top: 70px;
     padding-left: 15px;
     color: rgba(255, 251, 251, 0.5);
-    font-family:'Minion Variable Concept';
+    font-family:'cursive';
     font-style:oblique;
 }
 a{
@@ -406,19 +317,26 @@ a:hover{
 .up{
     position: absolute;
     left:50%;
-    font-size: 15px;
+    font-size: 18px;
+    margin-top: -40px;
+}
+.up a{
+    color:white;
+}
+.up a:hover{
+    color:#ff681d;
 }
 .about{
     position: absolute;
     left:20%; 
-    margin-top: -245px; 
+    margin-top: -230px; 
     color: rgba(255, 251, 251, 0.5)   
 }
 .history{
     font-size: 15px;
     position: absolute;
     left:20%; 
-    margin-top: -207px; 
+    margin-top: -195px; 
     color: rgba(255, 251, 251, 0.5) 
 }
 .video{
@@ -431,17 +349,31 @@ a:hover{
     color:#6c757d;
     text-decoration: none;
 }
+#collection h2{
+    margin-left: 45%;
+    color:#ff681d;
+}
+#discount h2{
+    margin-left: 45%;
+    color: #ff681d;
+}
+.clothes div{
+    margin-left: 40%;
+}
+.access div{
+    margin-left: 50%;
+}
 .work{
     font-size: 15px;
     position: absolute;
     left:40%; 
-    margin-top: -207px; 
+    margin-top: -195px; 
     color: rgba(255, 251, 251, 0.5) 
 }
 .franch{
     position: absolute;
     left:40%; 
-    margin-top: -245px; 
+    margin-top: -230px;  
     color: rgba(255, 251, 251, 0.5) 
 }
 .logo1{
@@ -491,6 +423,10 @@ label {
         margin-top: 30px;
     
     }
+    h1{
+        position: relative;
+        top:60%;
+    }
     label {
         display: block;
         cursor: pointer;
@@ -536,18 +472,34 @@ label {
         position: relative;
         left:25%;
     }
+    .winter img{
+        width: 600px;
+        height: 350px;
+    }
+    .div h1{
+        display: none;
+    }
+    .div{
+        display: none;
+    }
     #collection{
         position: relative;
-        left:8%;
+        left: -40%;
     }
     #discount{
         position: relative;
-        left:12%;
+        left: -40%;
     }
-    #toggle:checked + .asd .header div{
-        display: none;
-    }#toggle:checked + .asd .header .logo{
-        display: none;
+    .clothes{
+        position: relative;
+        left: -40%;
     }
+    .access{
+        position: relative;
+        left: -40%;
+    }
+    #toggle:checked + .header div{
+        display: none;
+}
 }
     
